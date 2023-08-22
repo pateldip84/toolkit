@@ -1,6 +1,7 @@
 ---
 - name: Retrieve network configurations
-  hosts: network
+  #hosts: network
+  hosts: cisco
   gather_facts: false
 
   tasks:
